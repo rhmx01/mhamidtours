@@ -6,122 +6,270 @@ const Gallery = () => {
 
     const itemData = [
         {
-            img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+            img: 'https://mhamid.tours/static/media/gallery/242453090.jpg',
             title: 'Breakfast',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+            img: 'https://mhamid.tours/static/media/gallery/337562076.jpg',
             title: 'Burger',
         },
         {
-            img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+            img: 'https://mhamid.tours/static/media/gallery/337562303.jpg',
             title: 'Camera',
         },
         {
-            img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+            img: 'https://mhamid.tours/static/media/gallery/337562357.jpg',
             title: 'Coffee',
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+            img: 'https://mhamid.tours/static/media/gallery/337562404.jpg',
             title: 'Hats',
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+            img: 'https://mhamid.tours/static/media/gallery/337567323.jpg',
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
+            img: 'https://mhamid.tours/static/media/gallery/337567458.jpg',
             title: 'Basketball',
         },
         {
-            img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+            img: 'https://mhamid.tours/static/media/gallery/337567485.jpg',
             title: 'Fern',
         },
         {
-            img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+            img: 'https://mhamid.tours/static/media/gallery/337567526.jpg',
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
+            img: 'https://mhamid.tours/static/media/gallery/337567628.jpg',
             title: 'Tomato basil',
         },
         {
-            img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+            img: 'https://mhamid.tours/static/media/gallery/337567718.jpg',
             title: 'Sea star',
         },
         {
-            img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+            img: 'https://mhamid.tours/static/media/gallery/337567810.jpg',
             title: 'Bike',
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+            img: 'https://mhamid.tours/static/media/gallery/337567879.jpg',
             title: 'Breakfast',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+            img: 'https://mhamid.tours/static/media/gallery/337567952.jpg',
             title: 'Burger',
         },
         {
-            img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+            img: 'https://mhamid.tours/static/media/gallery/337568044.jpg',
             title: 'Camera',
         },
         {
-            img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+            img: 'https://mhamid.tours/static/media/gallery/337568079.jpg',
             title: 'Coffee',
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+            img: 'https://mhamid.tours/static/media/gallery/337568107.jpg',
             title: 'Hats',
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+            img: 'https://mhamid.tours/static/media/gallery/337568121.jpg',
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
+            img: 'https://mhamid.tours/static/media/gallery/337568156.jpg',
             title: 'Basketball',
         },
         {
-            img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+            img: 'https://mhamid.tours/static/media/gallery/337568190.jpg',
             title: 'Fern',
         },
         {
-            img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+            img: 'https://mhamid.tours/static/media/gallery/337568221.jpg',
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
+            img: 'https://mhamid.tours/static/media/gallery/337568259.jpg',
             title: 'Tomato basil',
         },
         {
-            img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+            img: 'https://mhamid.tours/static/media/gallery/337568344.jpg',
             title: 'Sea star',
         },
         {
-            img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+            img: 'https://mhamid.tours/static/media/gallery/337568460.jpg',
             title: 'Bike',
             cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568550.jpg',
+            title: 'Honey',
+            author: '@arwinneil',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568620.jpg',
+            title: 'Basketball',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568653.jpg',
+            title: 'Fern',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568753.jpg',
+            title: 'Mushrooms',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568792.jpg',
+            title: 'Tomato basil',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337568855.jpg',
+            title: 'Sea star',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569026.jpg',
+            title: 'Bike',
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569127.jpg',
+            title: 'Breakfast',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569226.jpg',
+            title: 'Burger',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569281.jpg',
+            title: 'Camera',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569328.jpg',
+            title: 'Coffee',
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569492.jpg',
+            title: 'Hats',
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569512.jpg',
+            title: 'Honey',
+            author: '@arwinneil',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569535.jpg',
+            title: 'Basketball',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569617.jpg',
+            title: 'Fern',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337569925.jpg',
+            title: 'Mushrooms',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337570000.jpg',
+            title: 'Tomato basil',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337570045.jpg',
+            title: 'Sea star',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337570141.jpg',
+            title: 'Bike',
+            cols: 2,
+        },
+        {
+            img: 'https://mhamid.tours/337570245.jpg',
+            title: 'Basketball',
+        },
+        {
+            img: 'https://mhamid.tours/static/media/gallery/337570324.jpg',
+            title: 'Fern',
         },
     ];
+
+    /*
+242453090.jpg
+337562076.jpg
+337562303.jpg
+337562357.jpg
+337562404.jpg
+337567323.jpg
+337567458.jpg
+337567485.jpg
+337567526.jpg
+337567628.jpg
+337567718.jpg
+337567810.jpg
+337567879.jpg
+337567952.jpg
+337568044.jpg
+337568079.jpg
+337568107.jpg
+337568121.jpg
+337568156.jpg
+337568190.jpg
+337568221.jpg
+337568259.jpg
+337568344.jpg
+337568460.jpg
+337568550.jpg
+337568620.jpg
+337568653.jpg
+337568753.jpg
+337568792.jpg
+337568855.jpg
+337569026.jpg
+337569127.jpg
+337569226.jpg
+337569281.jpg
+337569328.jpg
+337569492.jpg
+337569512.jpg
+337569535.jpg
+337569617.jpg
+337569925.jpg
+337570000.jpg
+337570045.jpg
+337570141.jpg
+337570245.jpg
+337570324.jpg
+     */
 
 
     const srcset = (image, size, rows = 1, cols = 1) => {
