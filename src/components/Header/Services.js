@@ -6,7 +6,7 @@ import jeep from "../../images/jeep.png"
 
 const Services = () => {
     return (
-        <div className="absolute right-0 top-0 h-full  z-100 text-white" id="missions">
+        <div className="hidden md:block absolute right-0 top-0 h-full  z-100 text-white" id="missions">
             <div className="h-full grid items-center">
                 {/*<div className="small-title mb-4 flex-1">*/}
                 {/*    Découvrez nos missions*/}
