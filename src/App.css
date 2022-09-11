@@ -298,11 +298,12 @@ header #header-content p{
 }
 
 .card {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Jost", sans-serif;
     width: 90%;
     max-width: 350px;
-    background: rgb(32,22,63);
-    background: radial-gradient(circle, rgba(32,22,63,1) 22%, rgba(64,53,96,1) 56%, rgba(245,57,70,1) 66%, rgba(64,53,96,1) 78%);
+    background: #cc8e35;
+    /*color: #20163f !important;*/
+    /*background: radial-gradient(circle, rgba(32,22,63,1) 22%, rgba(64,53,96,1) 56%, rgba(245,57,70,1) 66%, rgba(64,53,96,1) 78%);*/
     padding: 0 2rem 1.5rem 2rem;
     border-radius: 10px;
     transition: box-shadow .3s linear;
@@ -330,11 +331,11 @@ header #header-content p{
     text-align: center;
 }
 .card .card-content .big-title {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.3rem;
 }
 .card .card-content .medium-title {
-    color: #ffffff;
+    color: #fff;
     font-size: .85rem;
     margin-top: .3rem;
 }

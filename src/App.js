@@ -6,17 +6,20 @@ import About from "./components/About";
 import Map from "./components/Map";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
+import ToursList from "./components/ToursList";
 
 function App() {
     return (
         <div className="App bg-body">
             <Navbar/>
             <Header/>
-            <About/>
-            <ServicesList/>
+            {/*<About/>*/}
+            <ToursList/>
             <Gallery/>
-            <Testimonials/>
+            {/*<Testimonials/>*/}
             <Map/>
+            <Footer/>
 
         </div>
     );
