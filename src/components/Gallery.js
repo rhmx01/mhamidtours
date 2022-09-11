@@ -1,224 +1,269 @@
 import React from 'react';
 import {ImageList, ImageListItem} from "@mui/material";
 import {isMobileMode} from "../utils/lib";
+import img242453090 from "../images/gallery/242453090.jpg"
+import img337562076 from "../images/gallery/337562076.jpg"
+import img337562303 from "../images/gallery/337562303.jpg"
+import img337562357 from "../images/gallery/337562357.jpg"
+import img337562404 from "../images/gallery/337562404.jpg"
+import img337567323 from "../images/gallery/337567323.jpg"
+import img337567458 from "../images/gallery/337567458.jpg"
+import img337567485 from "../images/gallery/337567485.jpg"
+import img337567526 from "../images/gallery/337567526.jpg"
+import img337567628 from "../images/gallery/337567628.jpg"
+import img337567718 from "../images/gallery/337567718.jpg"
+import img337567810 from "../images/gallery/337567810.jpg"
+import img337567879 from "../images/gallery/337567879.jpg"
+import img337567952 from "../images/gallery/337567952.jpg"
+import img337568044 from "../images/gallery/337568044.jpg"
+import img337568079 from "../images/gallery/337568079.jpg"
+import img337568107 from "../images/gallery/337568107.jpg"
+import img337568121 from "../images/gallery/337568121.jpg"
+import img337568156 from "../images/gallery/337568156.jpg"
+import img337568190 from "../images/gallery/337568190.jpg"
+import img337568221 from "../images/gallery/337568221.jpg"
+import img337568259 from "../images/gallery/337568259.jpg"
+import img337568344 from "../images/gallery/337568344.jpg"
+import img337568460 from "../images/gallery/337568460.jpg"
+import img337568550 from "../images/gallery/337568550.jpg"
+import img337568620 from "../images/gallery/337568620.jpg"
+import img337568653 from "../images/gallery/337568653.jpg"
+import img337568753 from "../images/gallery/337568753.jpg"
+import img337568792 from "../images/gallery/337568792.jpg"
+import img337568855 from "../images/gallery/337568855.jpg"
+import img337569026 from "../images/gallery/337569026.jpg"
+import img337569127 from "../images/gallery/337569127.jpg"
+import img337569226 from "../images/gallery/337569226.jpg"
+import img337569281 from "../images/gallery/337569281.jpg"
+import img337569328 from "../images/gallery/337569328.jpg"
+import img337569492 from "../images/gallery/337569492.jpg"
+import img337569512 from "../images/gallery/337569512.jpg"
+import img337569535 from "../images/gallery/337569535.jpg"
+import img337569617 from "../images/gallery/337569617.jpg"
+import img337569925 from "../images/gallery/337569925.jpg"
+import img337570000 from "../images/gallery/337570000.jpg"
+import img337570045 from "../images/gallery/337570045.jpg"
+import img337570141 from "../images/gallery/337570141.jpg"
+import img337570245 from "../images/gallery/337570245.jpg"
+import img337570324 from "../images/gallery/337570324.jpg"
 
 const Gallery = () => {
 
     const itemData = [
         {
-            img: 'https://mhamid.tours/static/media/gallery/242453090.jpg',
+            img: img242453090,
             title: 'Breakfast',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337562076.jpg',
+            img: img337562076,
             title: 'Burger',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337562303.jpg',
+            img: img337562303,
             title: 'Camera',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337562357.jpg',
+            img: img337562357,
             title: 'Coffee',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337562404.jpg',
+            img: img337562404,
             title: 'Hats',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567323.jpg',
+            img: img337567323,
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567458.jpg',
+            img: img337567458,
             title: 'Basketball',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567485.jpg',
+            img: img337567485,
             title: 'Fern',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567526.jpg',
+            img: img337567526,
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567628.jpg',
+            img: img337567628,
             title: 'Tomato basil',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567718.jpg',
+            img: img337567718,
             title: 'Sea star',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567810.jpg',
+            img: img337567810,
             title: 'Bike',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567879.jpg',
+            img: img337567879,
             title: 'Breakfast',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337567952.jpg',
+            img: img337567952,
             title: 'Burger',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568044.jpg',
+            img: img337568044,
             title: 'Camera',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568079.jpg',
+            img: img337568079,
             title: 'Coffee',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568107.jpg',
+            img: img337568107,
             title: 'Hats',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568121.jpg',
+            img: img337568121,
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568156.jpg',
+            img: img337568156,
             title: 'Basketball',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568190.jpg',
+            img: img337568190,
             title: 'Fern',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568221.jpg',
+            img: img337568221,
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568259.jpg',
+            img: img337568259,
             title: 'Tomato basil',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568344.jpg',
+            img: img337568344,
             title: 'Sea star',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568460.jpg',
+            img: img337568460,
             title: 'Bike',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568550.jpg',
+            img: img337568550,
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568620.jpg',
+            img: img337568620,
             title: 'Basketball',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568653.jpg',
+            img: img337568653,
             title: 'Fern',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568753.jpg',
+            img: img337568753,
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568792.jpg',
+            img: img337568792,
             title: 'Tomato basil',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337568855.jpg',
+            img: img337568855,
             title: 'Sea star',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569026.jpg',
+            img: img337569026,
             title: 'Bike',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569127.jpg',
+            img: img337569127,
             title: 'Breakfast',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569226.jpg',
+            img: img337569226,
             title: 'Burger',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569281.jpg',
+            img: img337569281,
             title: 'Camera',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569328.jpg',
+            img: img337569328,
             title: 'Coffee',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569492.jpg',
+            img: img337569492,
             title: 'Hats',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569512.jpg',
+            img: img337569512,
             title: 'Honey',
             author: '@arwinneil',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569535.jpg',
+            img: img337569535,
             title: 'Basketball',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569617.jpg',
+            img: img337569617,
             title: 'Fern',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337569925.jpg',
+            img: img337569925,
             title: 'Mushrooms',
             rows: 2,
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337570000.jpg',
+            img: img337570000,
             title: 'Tomato basil',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337570045.jpg',
+            img: img337570045,
             title: 'Sea star',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337570141.jpg',
+            img: img337570141,
             title: 'Bike',
             cols: 2,
         },
         {
-            img: 'https://mhamid.tours/337570245.jpg',
-            title: 'Basketball',
+            img: img337570245,
+            title: 'Fern',
         },
         {
-            img: 'https://mhamid.tours/static/media/gallery/337570324.jpg',
+            img: img337570324,
             title: 'Fern',
         },
     ];
