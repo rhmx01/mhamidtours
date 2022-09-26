@@ -8,18 +8,20 @@ import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import ToursList from "./components/ToursList";
+import {useState} from "react";
 
 function App() {
+    const [lang, setLang] = useState('fr');
     return (
         <div className="App bg-body">
-            <Navbar/>
-            <Header/>
-            {/*<About/>*/}
-            <ToursList/>
-            <Gallery/>
-            {/*<Testimonials/>*/}
-            <Map/>
-            <Footer/>
+            <Navbar lang={lang} setLang={(e)=>setLang(e)}/>
+            <Header lang={lang}/>
+            <About lang={lang}/>
+            <ToursList lang={lang}/>
+            <Gallery lang={lang}/>
+            {/*<Testimonials lang=lang/>*/}
+            <Map lang={lang}/>
+            <Footer lang={lang}/>
 
         </div>
     );

@@ -1,52 +1,52 @@
 import React from 'react';
 import img337567323 from "../images/tours/337567323.jpg"
-import img337568079 from "../images/tours/337568079.jpg"
 import img337568460 from "../images/tours/337568460.jpg"
 import img337567810 from "../images/tours/337567810.jpg"
-import img337568190 from "../images/tours/337568190.jpg"
-import imgbWeN0ue7BU from "../images/tours/bWeN0ue7BU.jpg"
-import img337568107 from "../images/tours/337568107.jpg"
-import img5468741687 from "../images/tours/5468741687.jpg"
+import img584684648649 from "../images/tours/584684648649.jpeg"
+import img18464zr6846684 from "../images/tours/18464zr6846684.jpeg"
+import img9862684568455 from "../images/tours/9862684568455.jpeg"
+import img337568550 from "../images/tours/337568550.jpg"
+import img684686565 from "../images/tours/684686565.jpeg"
 const ToursList = () => {
     const services = [
         {
             name: 'Circuit Azahar',
-            image: img337568079,
+            image: img684686565,
             duration: '6 days'
         },
         {
-            name: 'Camel trekking',
+            name: 'Camel Trekking',
             image: img337567323,
             duration: '6 days'
         },
         {
             name: 'Chegaga dunes 4x4',
-            image: img337568460,
+            image: img584684648649,
             duration: '1 night'
         },
         {
-            name: 'SIDI NAJI Hiking',
+            name: 'SIDI NAJI Trekking',
             image: img337567810,
             duration: '5 days'
         },
         {
-            name: 'Erg Chegaga Hiking',
-            image: img337568190,
+            name: 'Erg Chegaga Trekking',
+            image: img337568550,
             duration: '4 days'
         },
         {
             name: 'Bivouac Erg Chegaga',
-            image: imgbWeN0ue7BU,
+            image: img9862684568455,
             duration: '1 day'
         },
         {
-            name: 'Rass Nkhill ',
-            image: img337568107,
+            name: 'Rass Nkhll ',
+            image: img337568460,
             duration: '6 days'
         },
         {
             name: 'Erg Lihoudi Dune',
-            image: img5468741687,
+            image: img18464zr6846684,
             duration: '3 days'
         }
     ]
