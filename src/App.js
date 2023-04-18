@@ -9,21 +9,25 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import ToursList from "./components/ToursList";
 import {useState} from "react";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Home from "./containers/Home";
+import Details from "./components/Details";
 
 function App() {
     const [lang, setLang] = useState('fr');
     return (
+    <BrowserRouter>
         <div className="App bg-body">
             <Navbar lang={lang} setLang={(e)=>setLang(e)}/>
-            <Header lang={lang}/>
-            <About lang={lang}/>
-            <ToursList lang={lang}/>
-            <Gallery lang={lang}/>
-            {/*<Testimonials lang=lang/>*/}
+            <Routes>
+                <Route path="/" element={<Home lang={lang}/>} />
+                <Route path="/:tid/details" element={<Details />} />
+            </Routes>
+
             <Map lang={lang}/>
             <Footer lang={lang}/>
-
         </div>
+    </BrowserRouter>
     );
 }
 
