@@ -70,7 +70,7 @@ const ToursList = () => {
                         <Link href={"/" + service.id + "/details"}>
                             <div className="card mt-16 shadow-xl mx-auto cursor-pointer hover:opacity-50">
                                 <div className="card-img">
-                                    <img src={service.image} alt={service.name}/>
+                                    <img src={service.image} style={{height: 180, objectFit: "cover"}} alt={service.name}/>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="big-title font-bold">{service.name}</h2>

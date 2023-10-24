@@ -31,7 +31,7 @@ const Navbar = ({lang, setLang}) => {
                     </div>
                     <div className="flex justify-between w-full text-gray-500">
                         <ul className="nav-links">
-                            <li><a href="#">{lang ==='en' ? 'Home' : 'Accueil'}</a></li>
+                            <li><a href="/">{lang ==='en' ? 'Home' : 'Accueil'}</a></li>
                             <li><a href="#tours">{lang ==='en' ? 'Tours' : 'Tours'}</a></li>
                             <li><a href="#gallery">{lang ==='en' ? 'Gallery' : 'Galerie'}</a></li>
                             {/*<li><a href="#destinations">{lang ==='en' ? 'Destinations' : 'Destinations'}</a></li>*/}
